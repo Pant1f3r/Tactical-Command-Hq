@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+@keyframes check-pop {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-check {
+  animation: check-pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}

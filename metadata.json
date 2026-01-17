@@ -1,0 +1,9 @@
+{
+  "name": " 1.5_KR0M3D1A: Tactical Command Core",
+  "description": "An advanced command center for the KR0M3D1A protocol. Analyze digital threats, execute biometric forensics, and neutralize adversaries under the DEJA' VU directive.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ]
+}
